@@ -2,6 +2,14 @@
 
 A professional, beautiful, and modern fitness application built with React Native (Expo) and TypeScript. Fitbless helps users record workouts, manage routines/programs, join clubs, chat with teams, and track their fitness progress.
 
+## Screenshots
+<img width="313" alt="Screenshot 2025-05-03 at 12 21 30 PM" src="https://github.com/user-attachments/assets/3b935e9b-b27d-4d30-acc8-5ade37551434" />
+<img width="313" alt="Screenshot 2025-05-03 at 12 32 09 PM" src="https://github.com/user-attachments/assets/3bbca735-9f04-4a1d-9851-339a40163964" />
+<img width="315" alt="Screenshot 2025-05-03 at 12 35 41 PM" src="https://github.com/user-attachments/assets/34549316-20f4-41e1-b4cf-5debf198bec0" />
+<img width="316" alt="Screenshot 2025-05-03 at 12 33 37 PM" src="https://github.com/user-attachments/assets/0dd38cf2-1b22-4cec-a215-f8390022f1ac" />
+<img width="309" alt="Screenshot 2025-05-03 at 12 34 26 PM" src="https://github.com/user-attachments/assets/efc93414-c43b-466b-8c61-ac90243bfff7" />
+<img width="309" alt="Screenshot 2025-05-03 at 12 35 10 PM" src="https://github.com/user-attachments/assets/a75deb9f-ccbc-4a51-9054-62cccb7cd4b6" />
+
 ## Features
 
 - **Authentication**

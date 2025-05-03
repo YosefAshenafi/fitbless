@@ -6,7 +6,7 @@ import { HistoryScreen } from '../screens/HistoryScreen';
 import { ClubsScreen } from '../screens/ClubsScreen';
 import { ProfileScreen } from '../screens/profile/ProfileScreen';
 import Ionicons from 'react-native-vector-icons/Ionicons';
-import { View, TouchableOpacity, StyleSheet, Platform, Alert, Modal, Text, FlatList } from 'react-native';
+import { View, TouchableOpacity, StyleSheet, Platform, Alert, Modal, Text, FlatList, Image } from 'react-native';
 import { useState } from 'react';
 
 const Tab = createBottomTabNavigator<RootTabParamList>();
@@ -39,7 +39,6 @@ const CustomTabBar = ({ state, descriptors, navigation }: BottomTabBarProps) => 
           } else if (route.name === 'History') {
             iconName = isFocused ? 'calendar' : 'calendar-outline';
           } else if (route.name === 'Training') {
-            iconName = isFocused ? 'barbell' : 'barbell-outline';
             iconColor = '#000000';
             iconSize = 38;
             isCenter = true;
@@ -75,7 +74,11 @@ const CustomTabBar = ({ state, descriptors, navigation }: BottomTabBarProps) => 
                   activeOpacity={0.85}
                 >
                   <View style={styles.centerButton}>
-                    <Ionicons name={iconName} size={iconSize} color={'#fff'} />
+                    <Image 
+                      source={require('../../assets/workout.png')} 
+                      style={{ width: 38, height: 38 }} 
+                      resizeMode="contain"
+                    />
                   </View>
                 </TouchableOpacity>
               </View>
@@ -185,16 +188,16 @@ const styles = StyleSheet.create({
     width: 72,
     height: 72,
     borderRadius: 36,
-    backgroundColor: '#000000',
+    backgroundColor: '#EBEBEB',
     alignItems: 'center',
     justifyContent: 'center',
     borderWidth: 5,
-    borderColor: '#fff',
+    borderColor: 'gray',
     shadowColor: '#000',
-    shadowOffset: { width: 0, height: 6 },
-    shadowOpacity: 0.18,
-    shadowRadius: 12,
-    elevation: 12,
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.25,
+    shadowRadius: 8,
+    elevation: 8,
   },
   modalOverlay: {
     flex: 1,

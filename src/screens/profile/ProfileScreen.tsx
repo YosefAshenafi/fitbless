@@ -22,7 +22,7 @@ export const ProfileScreen = () => {
         <View style={styles.profileHeader}>
           <Image source={profileYosef} style={styles.profileImage} />
           <Text style={styles.profileName}>Yosef</Text>
-          <Text style={styles.profileEmail}>yosef@example.com</Text>
+          <Text style={styles.profileEmail}>jossyfreelancer@gmail.com</Text>
           <TouchableOpacity style={styles.editProfileBtn}>
             <Ionicons name="create-outline" size={20} color={COLORS.primary} />
             <Text style={styles.editProfileText}>Edit Profile</Text>
